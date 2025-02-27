@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "name":"kojens Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/group-books-pennant_25030-38688.jpg?t=st=1739937548~exp=1739941148~hmac=39137525f1be7c7ecfd5ded5ba850213faca9f741fd3ce5b217b3b8b3ed186a7&w=740"
+    },
+    {
+        "id":2,
+        "name":"Comedy Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":50,
+        "category": "Comedy",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":3,
+        "name":"Sport Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":40,
+        "category": "Sport",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":4,
+        "name":"Horror Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":10,
+        "category": "Horror",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":5,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":6,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":40,
+        "category": "Story",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":7,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":8,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":9,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":90,
+        "category": "Story",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":10,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":11,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":0,
+        "category": "Story",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    },
+    {
+        "id":12,
+        "name":"Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price":100,
+        "category": "Story",
+        "image": "https://img.freepik.com/free-photo/book-white-background_9975-6515.jpg?t=st=1739891172~exp=1739894772~hmac=c4e8a78db30359087356df0be237cdc01f02cfeb22a4ab917f94a6cd1da0a6fd&w=740"
+    }
+]
