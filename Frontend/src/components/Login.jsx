@@ -1,16 +1,18 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
+import axios from 'axios';
+import toast from 'react-hot-toast';
 
 function Login() {
-  const [navigate, closeModalAndRedirect] = [
-    useNavigate(), // Hook for navigation
-    () => {
-      const modal = document.getElementById('my_modal_3');
-      if (modal) modal.close(); // Close the modal
-      navigate('/'); // Redirect to the home page
-    },
-  ];
+  const navigate = useNavigate(); // Hook for navigation
+
+  const closeModalAndRedirect = () => {
+    const modal = document.getElementById('my_modal_3');
+    if (modal) modal.close(); // Close the modal
+    navigate('/'); // Redirect to the home page
+    window.location.reload();
+  };
 
   const {
     register,
@@ -18,7 +20,32 @@ function Login() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = async (data) => {
+    const userInfo = {
+      email: data.email,
+      password: data.password,
+    };
+
+    try {
+      const res = await axios.post('http://localhost:4001/user/login', userInfo);
+      if (res.data) {
+        toast.success('Login Successful');
+        localStorage.setItem('User', JSON.stringify(res.data.user));
+        setTimeout(() => {
+          closeModalAndRedirect();
+        }, 1000);
+         // Close the modal and redirect to the home page
+      }
+    } catch (err) {
+      if (err.response) {
+        console.log(err.message);
+        toast.error('Login Error: ' + err.response.data.message);
+        setTimeout(() => {
+          
+        }, 2000);
+      }
+    }
+  };
 
   return (
     <div>
@@ -60,7 +87,7 @@ function Login() {
                   className="w-80 px-3 py-2 border outline-none rounded-lg"
                   {...register('password', { required: true })}
                 />
-                <br /> 
+                <br />
                 {errors.password && (
                   <span className="text-red-500">Password is required</span>
                 )}
